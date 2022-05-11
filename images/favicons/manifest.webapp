@@ -1,7 +1,7 @@
 {
   "version": 3,
   "name": "gulp-pack",
-  "description": "My starter project for web development",
+  "description": "Научно-техническая конференция",
   "icons": {
     "60": "/images/favicons/firefox_app_60x60.png",
     "128": "/images/favicons/firefox_app_128x128.png",

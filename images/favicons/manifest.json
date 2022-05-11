@@ -1,7 +1,7 @@
 {
   "name": "gulp-pack",
   "short_name": "gulp-pack",
-  "description": "My starter project for web development",
+  "description": "Научно-техническая конференция",
   "dir": "auto",
   "lang": "ru-RU",
   "display": "standalone",

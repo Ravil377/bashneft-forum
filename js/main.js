@@ -14,9 +14,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modal_modal__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modal_modal__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _schedule_schedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./schedule/schedule */ "./src/components/schedule/schedule.js");
 /* harmony import */ var _schedule_schedule__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_schedule_schedule__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _overlay_overlay__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./overlay/overlay */ "./src/components/overlay/overlay.js");
 // Form
 // import './form/form'
 // Hamburger
+
 
 
 
@@ -39,6 +41,8 @@ __webpack_require__.r(__webpack_exports__);
 var $hamburger = document.querySelector('.hamburger--js');
 var $mainmenu = document.querySelector('.mainmenu--js');
 var $closeBtn = document.querySelector('.mainmenu--close');
+var mainmenuList = document.querySelector('.mainmenu__list');
+mainmenuList.addEventListener('click', hideMenu);
 
 function showMenu() {
   $mainmenu.classList.add('is-active');
