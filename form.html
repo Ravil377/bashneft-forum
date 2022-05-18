@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#10cfe6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="msapplication-TileColor" content="#10cfe6">
+    <meta name="msapplication-TileImage" content="./images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
+    <title>Галерея</title>
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="./images/favicons/favicon-48x48.png">
+    <link rel="manifest" href="/images/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="./images/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="./images/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="icon" type="image/png" sizes="228x228" href="./images/favicons/coast-228x228.png">
+    <link rel="yandex-tableau-widget" href="./images/favicons/yandex-browser-manifest.json">
+    <link rel="stylesheet" href="./css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="homepage">
+    <header class="header pt-lg-25 pt-1">
+      <div class="container-xxl">
+        <div class="row align-items-center mb-lg-20 justify-content-lg-between justify-content-sm-center justify-content-between">
+          <div class="col-xxl-5 col">
+            <div class="logo header__logo">
+              <div class="row align-items-sm-center justify-content-lg-start justify-content-sm-center flex-sm-row flex-column"><a class="logo__link" href="/">
+                  <svg class="icon icon-logo ">
+                    <use xlink:href="./images/sprite.svg#logo"></use>
+                  </svg></a><a class="logo__link" href="/">
+                  <svg class="icon icon-rosneft ">
+                    <use xlink:href="./images/sprite.svg#rosneft"></use>
+                  </svg></a><a class="logo__link" href="/">
+                  <svg class="icon icon-bashneft ">
+                    <use xlink:href="./images/sprite.svg#bashneft"></use>
+                  </svg></a></div>
+            </div>
+          </div>
+          <div class="col-xxl-7 col-auto header__connection-container">
+            <ul class="header__connection">
+              <li class="d-none d-lg-flex"><a href="tel:+79656693777" title="+7 965 66-93-7777">+7 965 66-93-7777</a></li>
+              <li class="d-none d-lg-flex"><a href="mailto: NORKA@bn.rosneft.ru" title="NORKA@bn.rosneft.ru">NORKA@bn.rosneft.ru</a></li>
+              <li><a class="header__connection-link_bg --align-center" href="#">
+                  <svg class="icon icon-online  header__connection-icon">
+                    <use xlink:href="./images/sprite.svg#online"></use>
+                  </svg>
+                  <p class="d-none d-lg-block mb-0">Прямая трансляция</p></a></li>
+            </ul>
+            <div class="d-lg-none"><a class="hamburger hamburger--js" href="#"><span></span></a></div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <nav class="mainmenu mainmenu--js">
+            <ul class="mainmenu__list">
+                        <li class="mainmenu__item"><a href="index.html">Главная</a>
+                        </li>
+                        <li class="mainmenu__item"><a href="#partition">Секции</a>
+                        </li>
+                        <li class="mainmenu__item"><a href="#schedule">Программа</a>
+                        </li>
+                        <li class="mainmenu__item"><a href="#form">Отзывы</a>
+                        </li>
+                        <li class="mainmenu__item"><a href="#security">Меры безопасности</a>
+                        </li>
+                        <li class="mainmenu__item"><a href="gallery.html">Галерея</a>
+                        </li>
+            </ul>
+            <svg class="icon icon-rosneft ">
+              <use xlink:href="./images/sprite.svg#rosneft"></use>
+            </svg>
+            <svg class="icon icon-bashneft ">
+              <use xlink:href="./images/sprite.svg#bashneft"></use>
+            </svg>
+            <ul class="header__connection">
+              <li class="d-none d-lg-flex"><a href="tel:+79656693777" title="+7 965 66-93-7777"> 
+                  <p class="mb-0">+7 965 66-93-7777</p></a></li>
+              <li class="d-none d-lg-flex"><a href="mailto: NORKA@bn.rosneft.ru" title="NORKA@bn.rosneft.ru"> 
+                  <p class="mb-0">NORKA@bn.rosneft.ru</p></a></li>
+              <li><a class="header__connection-link_bg --align-center" href="#">
+                  <svg class="icon icon-online  header__connection-icon">
+                    <use xlink:href="./images/sprite.svg#online"></use>
+                  </svg>
+                  <p class="d-none d-lg-block mb-0">Прямая трансляция</p></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="questionnaire"> 
+      <svg class="icon icon-gallery-decor  decor">
+        <use xlink:href="./images/sprite.svg#gallery-decor"></use>
+      </svg>
+      <div class="container-xxl">
+        <div class="breadcrumbs"><a class="breadcrumbs__link" href="index.html">Главная</a><span class="breadcrumbs__link">Отзывы</span></div>
+        <h1 class="title questionnaire__title">Отзывы</h1>
+        <form class="questionnaire__form" action="#" method="post"> 
+          <div class="questionnaire__form-title">Анкета обратной связи по результатам проведения IV ежегодной научно-технической конференции «Исследования скважин: Целеполагание <span>→</span> Технологии <span>→</span> Эффект».</div>
+          <div class="row">
+            <div class="form__placeholder-container col-12 col-md">
+              <input type="text" placeholder="ООО «Организаци_" required>
+              <label>Организация, подразделение*</label>
+            </div>
+            <div class="form__placeholder-container col-12 col-md mb-0">
+              <input type="text" placeholder="Иванов Иван Иванович" required>
+              <label>ФИО*</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form__placeholder-container col-12 col-md">
+              <input type="email" placeholder="Например: example@yandex.ru" required>
+              <label>E-mail*</label>
+            </div>
+            <div class="form__placeholder-container col-12 col-md mb-0">
+              <input class="phone-mask--js" type="tel" placeholder="+ 7 (___)-___-__-__" required id="phone">
+              <label>Телефон*</label>
+            </div>
+          </div>
+          <div class="form__checkbox-container mb-70">
+            <p class="form__checkbox-title">Участвовали ли Вы в предыдущих конференциях ООО «Башнефть-ПЕТРОТЕСТ»*</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="participated" value="Да" checked><span>Да</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="participated" value="Нет"><span>Нет</span>
+              </label>
+            </div>
+            <p class="form__checkbox-description">Оцените, пожалуйста, организацию проведения конференции, прошедшей 18-19 мая 2022 года. В случае Вашей оценки «неудовлетворительно» по какому-либо вопросу, дайте более детальную информацию по нему:</p>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">1. Оцените общее впечатление от прошедшей конференции:</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="RateAll" value="Отлично" checked><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="RateAll" value="Хорошо"><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="RateAll" value="Удовлетворительно"><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="RateAll" value="Неудовлетворительно"><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">2. Оцените полученную информацию, опыт с точки зрения пользы для Вас в дальнейшей работе:</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="RateInfo" value="Отлично"><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="RateInfo" value="Хорошо" checked><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="RateInfo" value="Удовлетворительно"><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="RateInfo" value="Неудовлетворительно"><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">3. Оцените повестку конференции:</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="RateAgenda" value="Отлично"><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="RateAgenda" value="Хорошо"><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="RateAgenda" value="Удовлетворительно" checked><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="RateAgenda" value="Неудовлетворительно"><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">3.1 Соответствие докладов тематике конференции:</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="conformity" value="Отлично"><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="conformity" value="Хорошо"><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="conformity" value="Удовлетворительно"><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="conformity" value="Неудовлетворительно" checked><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">3.2. Достаточность выделенного на конференции времени для обсуждения докладов (в пределах выделенного на доклад времени: непосредственно в ходе доклада, сразу после доклада, а также выделенного после нескольких докладов времени перед перерывами в ходе конференции):</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="adequacy" value="Отлично" checked><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="adequacy" value="Хорошо"><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="adequacy" value="Удовлетворительно"><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="adequacy" value="Неудовлетворительно"><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">4. Оцените качество представленных на конференции докладов:</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="quality" value="Отлично"><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="quality" value="Хорошо" checked><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="quality" value="Удовлетворительно"><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="quality" value="Неудовлетворительно"><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container">
+            <p class="form__checkbox-title">5. Оцените экспозицию оборудования, представленную на Конференции:</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="exposition" value="Отлично"><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="exposition" value="Хорошо"><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="exposition" value="Удовлетворительно" checked><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="exposition" value="Неудовлетворительно"><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__checkbox-container mb-90">
+            <p class="form__checkbox-title">6. Оцените уровень организации - выбранное место (конференц-зал гостиницы «Башкирия») для проведения конференции (удобство мест, слышимость докладов, хорошая видимость презентаций на экранах -  наглядность, понятность, дизайн), атмосферу мероприятия.</p>
+            <div class="row">
+              <label class="form__checkbox col">
+                <input type="radio" name="level" value="Отлично"><span>Отлично</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="level" value="Хорошо"><span>Хорошо</span>
+              </label>
+              <label class="form__checkbox col">
+                <input type="radio" name="level" value="Удовлетворительно"><span>Удовлетворительно</span>
+              </label>
+              <label class="form__checkbox form__checkbox_black col">
+                <input type="radio" name="level" value="Неудовлетворительно" checked><span>Неудовлетворительно</span>
+              </label>
+            </div>
+          </div>
+          <div class="form__placeholder-container mb-100"><span>7. Что запомнилось больше всего:</span>
+            <textarea type="text" placeholder="Пожалуйста, расскажите подробнее"></textarea>
+          </div>
+          <div class="form__placeholder-container mb-100"><span>8. Что не понравилось: </span>
+            <textarea type="text" placeholder="Пожалуйста, расскажите подробнее"></textarea>
+          </div>
+          <div class="form__placeholder-container mb-50"><span>9. Что следует изменить: </span>
+            <textarea type="text" placeholder="Пожалуйста, расскажите подробнее"></textarea>
+          </div>
+          <div class="form__placeholder-container mb-50"><span>10. Кого (представителей каких организации, или конкретных специалистов) Вы бы посоветовали пригласить в качестве докладчиков на следующую конференцию:</span>
+            <textarea type="text" placeholder="Пожалуйста, расскажите подробнее"></textarea>
+          </div>
+          <div class="form__placeholder-container mb-30"><span>11. Ваши предложения, дополнительная информация:</span>
+            <textarea type="text" placeholder="Пожалуйста, расскажите подробнее"></textarea>
+          </div>
+          <div class="form__agreement">
+            <svg class="icon icon-agreement-icon ">
+              <use xlink:href="./images/sprite.svg#agreement-icon"></use>
+            </svg>Нажимая кнопку, вы даете согласие на обработку персональных данных
+          </div>
+          <button class="form__btn hvr-bounce-to-right" type="submit" data-id="openmodal">Отправить отзыв</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__top"> 
+        <div class="container-xxl footer__container">
+          <svg class="icon icon-footer__logo ">
+            <use xlink:href="./images/sprite.svg#footer__logo"></use>
+          </svg>
+          <ul class="footer__list"> 
+            <li class="footer__item"> 
+              <svg class="icon icon-phone ">
+                <use xlink:href="./images/sprite.svg#phone"></use>
+              </svg>Телефон приемной: <a href="tel:+73472739233">+7 (347) 273-92-33, доб. 12145 </a>
+            </li>
+            <li class="footer__item"> 
+              <svg class="icon icon-envelope ">
+                <use xlink:href="./images/sprite.svg#envelope"></use>
+              </svg>Электронная почта:<a href="mailto:+73472739233">petrotest@bashneft.ru</a>
+            </li>
+            <li class="footer__item"> 
+              <svg class="icon icon-location ">
+                <use xlink:href="./images/sprite.svg#location"></use>
+              </svg>Адрес:<span>450006, г. Уфа, ул. К. Маркса, 20</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container-xxl">IV ЕЖЕГОДНАЯ КОРПОРАТИВНАЯ НАУЧНО-ТЕХНИЧЕСКАЯ КОНФЕРЕНЦИЯ<span>© БАШНЕФТЬ ПЕТРОТЕСТ, 2022 Все права защищены.</span></div>
+      </div>
+    </footer><a class="go-top go-top--js" href="#">
+      <svg class="icon icon-arrow-up ">
+        <use xlink:href="./images/sprite.svg#arrow-up"></use>
+      </svg></a>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
